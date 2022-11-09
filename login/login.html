@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Leme Store</title>
+</head>
+
+<body>
+    <section class="login">
+        
+        <h1 class="login_titulo">Fazer Login</h1>
+        <hr>
+        <label class="login_label">
+            <span>Nome de Usuario</span>
+            <input type="text" name="username" class="input">
+        </label>
+        <label class="login_label">
+            <span>Senha</span>
+            <input type="password" name="password" class="input">
+        </label>
+        <label class="login_label--checkbox">
+            <p>
+                <input type="checkbox" class="input-checkbox">Manter login
+            </p>
+        </label>
+        <button type="button" class="login_button" disabled onclick="avanco()">
+            <p>Login</p>
+        </button>
+        <a href="#" class="login_links">Nao consegue iniciar sessao?</a>
+        <a href="#" class="login_links">Criar Conta</a>
+    </section>
+    <script src="interacao.js"></script>
+</body>
+
+</html>
