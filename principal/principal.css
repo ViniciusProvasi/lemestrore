@@ -22,8 +22,8 @@
 .corpo-fundo {
     display: flex;
     flex-direction: column;
-    width: 99vw;
-    height: 500vh;
+    width: 98.9vw;
+    height: 360vh;
     background-image: linear-gradient(to bottom, white, rgba(48, 47, 47, 0.175));
 }
 
@@ -331,9 +331,10 @@ hr {
     border-radius: 50px;
     color: var(--cor0);
     box-shadow: 1px 2px rgba(0, 0, 0, 0.326);
-    background: -webkit-linear-gradient(bottom, #51F469, #07F22B, #07E629, #06BF22);
+    background: -webkit-linear-gradient(bottom, #07E629, #06BF22, #267331);
     -webkit-background-clip: color;
     -webkit-text-fill-color: rgb(255, 255, 255);
+    transition: all 1s ease-in-out;
 }
 
 .saibamais span {
@@ -527,6 +528,7 @@ h2 {
 .arrow-right {
     left: auto;
     right: 0;
+    width:40px;
     background-image: linear-gradient(to right, transparent 80%, black 200%);
 }
 
@@ -562,24 +564,26 @@ h2 {
 .redes-sociais {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 125%;
+    position: fixed;
+    top: 40%;
     align-items: flex-start;
     padding: 10px;
     width: 60px;
     border-radius: 0 15px 15px 0px;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.364);
-    border: 1px solid rgba(0, 0, 0, 0.286);
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    transition: all 1s ease-in-out;
 }
 
 .redes-sociais a {
     display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.418);
+    border: 1px solid rgba(0, 0, 0, 0.249);
     padding: 5px;
     width: 75%;
     margin: 5px 0;
     box-shadow: 1px 2px rgba(0, 0, 0, 0.134);
     border-radius: 50%;
+    transition: all 0.5s ease-in-out;
 }
 
 .redes-sociais a svg {
@@ -589,6 +593,7 @@ h2 {
     justify-content: center;
     width: 50px;
     height: 40px;
+    transition: all 0.5s ease-in-out;
 }
 
 .redes-sociais a:hover {
@@ -687,4 +692,80 @@ h2 {
 [data-anime].animate {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+.rodape{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.092);
+    width: 98.6%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(38, 36, 36, 0.432), rgba(48, 47, 47, 0.43));
+}
+.links-rodape{
+    padding: 10px;
+    
+}
+.links-rodape ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 10px;
+}
+.links-rodape ul a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.links-rodape ul li{
+    display: flex;
+    font-family: var(--font-destaque);
+}
+.links-rodape ul a:hover{
+    text-decoration: underline;
+    color:#07F22B;
+}
+.label-rodape{
+    background-image: linear-gradient(to bottom, rgba(0, 255, 85, 0.714), rgba(4, 255, 0, 0.608));
+    margin: 1px auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.114);
+    
+}
+.label-rodape .button-span{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.button-span{
+    transition: all 1s ease-in-out;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.114);
+    border: 1px solid transparent;
+    background-color:  var(--cor3);
+    color: var(--cor4);
+}
+#feedback{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.button-span:hover{
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.114);
+    border: 1px solid transparent;
+    background-color:  black;
+    color:white;
+    cursor: pointer;
+}
+#feedback:focus{
+    border: 1px solid #07E629;
+    transition: all 1s ease-in-out;
 }
