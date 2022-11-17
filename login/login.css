@@ -22,7 +22,7 @@ hr{
     background-color: var(--cor0);
 }
 body{
-    background-image: url(Imagens/loja\ de\ roupa.jpg);
+    background-image: url(../Imagens/loja.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

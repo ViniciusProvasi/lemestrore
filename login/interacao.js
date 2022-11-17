@@ -24,7 +24,7 @@ const clickbotao = () => {
 
 
 function avanco() {
-    window.location.href = ("principal.html")
+    window.location.href = ("/principal/principal.html")
 }
 
 
