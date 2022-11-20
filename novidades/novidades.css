@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 98.9vw;
-    height: 360vh;
+    height: 330vh;
     background-image: linear-gradient(to bottom, white, rgba(48, 47, 47, 0.175));
 }
 
@@ -236,88 +236,6 @@ hr {
     box-shadow: 1px 2px rgba(0, 0, 0, 0.134);
 }
 
-.text-top-center {
-    display: flex;
-    flex-direction: column;
-    margin: 0px auto;
-    margin-top: 40px;
-    padding: 10px;
-    width: 800px;
-    gap: 10px;
-    align-items: center;
-    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.222);
-    position: relative;
-    transition: all 1s ease-in-out;
-}
-
-.saibamais {
-    cursor: pointer;
-    background-image: url(../Icons/seta-direita.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    backface-visibility: visible;
-    padding: 20px;
-    background-color: transparent;
-    border: none;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.366);
-    width: 0px;
-    height: 10px;
-    transition: all 1s ease-in-out;
-    position: relative;
-
-}
-
-.saibamais:hover {
-    display: flex;
-    flex-direction: column;
-    width: 160px;
-    height: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.137);
-    padding: 20px;
-    border-radius: 50px;
-    color: var(--cor0);
-    box-shadow: 1px 2px rgba(0, 0, 0, 0.326);
-    background: -webkit-linear-gradient(bottom, #07E629, #06BF22, #267331);
-    -webkit-background-clip: color;
-    -webkit-text-fill-color: rgb(255, 255, 255);
-    transition: all 1s ease-in-out;
-}
-
-.saibamais span {
-    display: flex;
-    margin: 10px auto;
-    width: 60px;
-    top: -10px;
-    left: 40px;
-    padding: 10px;
-    position: absolute;
-    font-family: var(--font-destaque);
-
-}
-
-.text-top-center::after {
-    left: 270px;
-    bottom: 90px;
-    position: absolute;
-    content: "";
-    width: 0%;
-    margin: 0 auto;
-    height: 4px;
-    background-image: linear-gradient(to right, #51F469, #07F22B, #07E629);
-    transition: all 3s ease-in-out;
-}
-
-.text-top-center:hover::after {
-    width: 34.5%;
-}
-
-.bemvindo,
-p {
-
-    font-family: var(--font-destaque);
-}
 
 .links-subcabeca {
     margin: auto;
@@ -362,4 +280,21 @@ p {
 
 .corpo-links:nth-child(2) {
     border-bottom: 2px solid black;
+}
+.img-header1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+   
+}
+.img-header1 img{
+    height: 90px;
+    width: 490px;
+}
+.img-header2 img{
+    height: 90px;
+    width: 100%;
+}
+.img-header2{
+
 }

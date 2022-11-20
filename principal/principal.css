@@ -24,7 +24,7 @@
     justify-content: space-between;
     flex-direction: column;
     width: 98.9vw;
-    height: 360vh;
+    height: 330vh;
     background-image: linear-gradient(to bottom, white, rgba(48, 47, 47, 0.175));
 }
 
@@ -140,8 +140,7 @@ hr {
 .links-subcabeca {
     margin: auto;
     min-width: 150px;
-    
-    margin-top: 10px;
+    margin-top: 70px;
 
 }
 
