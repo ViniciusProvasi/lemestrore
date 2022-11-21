@@ -42,7 +42,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.link-logo{
+    text-decoration: none;
+}
 /*Icones topo*/
 .icons {
     display: flex;
@@ -356,12 +358,14 @@ hr {
     margin: 0 auto;
     word-wrap: normal;
 }
-.quadrados:hover{
+
+.quadrados:hover {
     border: 1px solid black;
     transition: all 1s ease-in-out;
-    
+
 }
-.quadrados button{
+
+.quadrados button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -376,7 +380,8 @@ hr {
     align-items: center;
     transition: all 1s ease-in-out;
 }
-.quadrados img{
+
+.quadrados img {
     display: flex;
     width: 150px;
     height: 150px;
@@ -384,14 +389,17 @@ hr {
     border-radius: 5px;
     box-sizing: border-box;
 }
-.quadrados button span{
+
+.quadrados button span {
     font-family: var(--font-destaque);
 }
-.quadrados:hover button{
+
+.quadrados:hover button {
     opacity: 1;
     cursor: pointer;
     transform: translateY(-50px);
 }
+
 .produtos-span {
     display: flex;
     flex-direction: row;
@@ -399,6 +407,7 @@ hr {
     margin: auto;
     font-family: var(--font-destaque);
 }
+
 .produtos-span::before {
     content: 'R$';
     display: flex;
@@ -407,13 +416,15 @@ hr {
 .produtos-span::after {
     content: ',00';
 }
-.span-titte-produto{
+
+.span-titte-produto {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: auto;
     font-family: var(--font-destaque);
 }
+
 .rodape {
     display: flex;
     flex-direction: row;
@@ -450,11 +461,13 @@ hr {
     text-decoration: underline;
     color: #07F22B;
 }
-.label-alinhamento{
+
+.label-alinhamento {
     margin: 0 auto;
     display: flex;
-    
+
 }
+
 .label-rodape {
     background-image: linear-gradient(to bottom, rgba(0, 255, 85, 0.714), rgba(4, 255, 0, 0.608));
     margin: 1px auto;

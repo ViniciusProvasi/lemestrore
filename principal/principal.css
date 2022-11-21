@@ -305,9 +305,11 @@ hr {
     gap: 20px;
     align-items: center;
 }
-.icon-imagens .icon-subtitle{
+
+.icon-imagens .icon-subtitle {
     margin: auto;
 }
+
 .icon-imagens img {
     width: 50px;
 }
@@ -317,9 +319,11 @@ hr {
     flex-direction: row;
     gap: 10px;
 }
-.icon-imagens .icon-subtitle p{
-   font-size: small;
+
+.icon-imagens .icon-subtitle p {
+    font-size: small;
 }
+
 .icon-imagens .icon-subtitle p:nth-child(1) {
     font-weight: bolder;
 }
@@ -668,7 +672,8 @@ h2 {
     position: relative;
     transition: all 1s ease-in-out;
 }
-.multimarcas-section-imagens .roupas:nth-child(2){
+
+.multimarcas-section-imagens .roupas:nth-child(2) {
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -677,12 +682,14 @@ h2 {
     position: relative;
     transition: all 1s ease-in-out;
 }
-.multimarcas-section-imagens{
+
+.multimarcas-section-imagens {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 50px;
 }
+
 .roupas {
     display: flex;
     flex-direction: column;
@@ -709,7 +716,7 @@ h2 {
     margin: 0 auto;
 }
 
-.roupas-bottom-secudaria{
+.roupas-bottom-secudaria {
     display: flex;
     flex-direction: row;
     width: 860px;
@@ -719,7 +726,8 @@ h2 {
     border-radius: 10px;
     margin-right: 10px;
 }
-.roupas-bottom-secudaria:nth-child(2){
+
+.roupas-bottom-secudaria:nth-child(2) {
     padding: 10px;
     margin-left: 10px;
     height: 379px;
@@ -743,6 +751,7 @@ h2 {
 [data-anime="top"] {
     transform: translate3d(0, -50px, 0);
 }
+
 [data-anime="bottom"] {
     transform: translate3d(0, 50px, 0);
 }
@@ -788,11 +797,13 @@ h2 {
     text-decoration: underline;
     color: #07F22B;
 }
-.label-alinhamento{
+
+.label-alinhamento {
     margin: 0 auto;
     display: flex;
-    
+
 }
+
 .label-rodape {
     background-image: linear-gradient(to bottom, rgba(0, 255, 85, 0.714), rgba(4, 255, 0, 0.608));
     margin: 1px auto;
