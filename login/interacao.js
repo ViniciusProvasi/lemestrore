@@ -24,7 +24,7 @@ const clickbotao = () => {
 
 
 function avanco() {
-    window.location.href = ("projeto_lemestrore/principal/principal.html")
+    window.location.href = ("https://viniciusprovasi.github.io/projeto_lemestrore/principal/principal.html")
 }
 
 
