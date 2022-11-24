@@ -42,9 +42,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.link-logo{
+
+.link-logo {
     text-decoration: none;
 }
+
 /*Icones topo*/
 .icons {
     display: flex;
@@ -241,7 +243,6 @@ hr {
 .links-subcabeca {
     margin: auto;
     min-width: 150px;
-    margin-top: 10px;
 }
 
 .links-subcabeca ul {
